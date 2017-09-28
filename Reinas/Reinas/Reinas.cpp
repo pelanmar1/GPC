@@ -65,11 +65,7 @@ bool esRotacion(int* arrBase, int* arrPrueba, int n) {
 	return sigue;
 }
 
-bool esSolucionFundamental(int* arrBase, int* arrPrueba, int n) {
-	bool fund = !(esReflejo(arrBase, arrPrueba, n) && esRotacion(arrBase, arrPrueba, n));
-	int i = 0;
-	return fund;
-}
+
 
 
 void imprimeSolucion(int* arr, int n) {
@@ -136,6 +132,11 @@ int factorial(int k) {
 	return k*factorial(k - 1);
 }
 
+bool esSolucionFundamental(int* arrBase, int* arrPrueba, int n) {
+	bool fund = !esReflejo(arrBase, arrPrueba, n) && !esRotacion(arrBase, arrPrueba, n);
+	return fund;
+}
+
 bool revisaFundamental(int* hist,int tamHist,int* arrPrueba) {
 	int i = 0;
 	bool sigue = true;
@@ -172,12 +173,12 @@ int main()
 	
 	cout << "Soluciones fundamentales: " << endl;
 	int* rengAct;
-	int* solFinal = (int*)malloc(sizeof(int) * 15 * 8);
 	int tamSolFin = 8 * 15;
+
+	int* solFinal = (int*)malloc(sizeof(int) * tamSolFin);
 	// Limpiamos arreglo
 	for (int i = 0; i < tamSolFin; i++) {
 		*(solFinal + i) = -1;
-
 	}
 
 	
@@ -186,11 +187,12 @@ int main()
 	for (int i = 0; i < 92; i++) {
 		if (revisaFundamental(solFinal, tamSolFin, (matLineal + i * 8))) {
 			for (int j = 0; j < 8; j++) {
-				*(solFinal + k +j) = *(matLineal + i * 8 +j);
-				k++;
+				*(solFinal + k *8+j) = *(matLineal + i * 8 +j);
 			}
+			k++;
 
-			}
+
+		}
 		
 
 	}
