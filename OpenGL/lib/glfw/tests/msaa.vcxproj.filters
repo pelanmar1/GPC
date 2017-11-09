@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\hca\Desktop\GPC\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\glfw\tests\msaa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\hca\Desktop\GPC\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\glfw\deps\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\hca\Desktop\GPC\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\glfw\deps\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\hca\Desktop\GPC\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\glfw\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{28273AD3-663C-3C01-9F37-8FF7D1FFF4DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{81E9097D-5DB1-315E-9539-CCE2758EA2B3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

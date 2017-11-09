@@ -34,7 +34,7 @@ init( void )
 
     glCreateBuffers( NumBuffers, Buffers );
     glBindBuffer( GL_ARRAY_BUFFER, Buffers[ArrayBuffer] );
-    glBufferStorage( GL_ARRAY_BUFFER, sizeof(vertices), vertices, 0);
+		glBufferStorage( GL_ARRAY_BUFFER, sizeof(vertices), vertices, 0);
 
     ShaderInfo  shaders[] =
     {
