@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{56EFE21C-E26E-359F-BE2D-E9AC7BC03D57}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OGLPG-9th-Edition\OGLPG-9th-Edition\include;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OGLPG-9th-Edition\OGLPG-9th-Edition\include;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OGLPG-9th-Edition\OGLPG-9th-Edition\include;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\OGLPG-9th-Edition\OGLPG-9th-Edition\include;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/OGLPG-9th-Edition/OGLPG-9th-Edition/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/OGLPG-9th-Edition/OGLPG-9th-Edition -BC:/Users/sdist/Desktop/OGL/OGL --check-stamp-file C:/Users/sdist/Desktop/OGL/OGL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/OGLPG-9th-Edition/OGLPG-9th-Edition/CMakeLists.txt;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\CMakeLists.txt;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeCCompiler.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/OGLPG-9th-Edition/OGLPG-9th-Edition/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/OGLPG-9th-Edition/OGLPG-9th-Edition -BC:/Users/sdist/Desktop/OGL/OGL --check-stamp-file C:/Users/sdist/Desktop/OGL/OGL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/OGLPG-9th-Edition/OGLPG-9th-Edition/CMakeLists.txt;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\CMakeLists.txt;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeCCompiler.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/OGLPG-9th-Edition/OGLPG-9th-Edition/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/OGLPG-9th-Edition/OGLPG-9th-Edition -BC:/Users/sdist/Desktop/OGL/OGL --check-stamp-file C:/Users/sdist/Desktop/OGL/OGL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/OGLPG-9th-Edition/OGLPG-9th-Edition/CMakeLists.txt;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\CMakeLists.txt;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeCCompiler.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/OGLPG-9th-Edition/OGLPG-9th-Edition/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/OGLPG-9th-Edition/OGLPG-9th-Edition -BC:/Users/sdist/Desktop/OGL/OGL --check-stamp-file C:/Users/sdist/Desktop/OGL/OGL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/OGLPG-9th-Edition/OGLPG-9th-Edition/CMakeLists.txt;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\CMakeLists.txt;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeCCompiler.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\3.10.0-rc3\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\FindOpenMP\OpenMPCheckVersion.c;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\FindOpenMP\OpenMPCheckVersion.cpp;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\build\templates\vs2013.vcxproj.user.in;C:\OGLPG-9th-Edition\OGLPG-9th-Edition\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\sdist\Desktop\OGL\OGL\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\ZERO_CHECK.vcxproj">
+      <Project>{81535EF7-3368-3AE1-9D54-7984DB2BA273}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\01-keypress.vcxproj">
+      <Project>{F8639B46-B763-350D-99D3-701697FC9180}</Project>
+      <Name>01-keypress</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\01-triangles.vcxproj">
+      <Project>{4524E0FC-0BAC-35E3-BF9C-1DB3A3F535DD}</Project>
+      <Name>01-triangles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\03-drawcommands.vcxproj">
+      <Project>{BEAAEA20-AEB0-30ED-98AC-F65D97C9FD65}</Project>
+      <Name>03-drawcommands</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\03-instancing.vcxproj">
+      <Project>{95B9D5EB-427F-379F-9DDE-7F6A33585E92}</Project>
+      <Name>03-instancing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\03-instancing2.vcxproj">
+      <Project>{515CB0A9-510A-385B-8E85-E23092B08851}</Project>
+      <Name>03-instancing2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\03-instancing3.vcxproj">
+      <Project>{F06A7A09-D983-3E98-B65A-0C876A08306A}</Project>
+      <Name>03-instancing3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\03-pointsprites.vcxproj">
+      <Project>{1518E2B6-FC33-385C-AD01-5B703239BF4C}</Project>
+      <Name>03-pointsprites</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\03-primitiverestart.vcxproj">
+      <Project>{3C459D36-444D-36BC-A5CA-9A0387498AEB}</Project>
+      <Name>03-primitiverestart</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\03-xfb.vcxproj">
+      <Project>{44744ABB-F823-33F0-8EC1-53F277B2DD03}</Project>
+      <Name>03-xfb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\04-gouraud.vcxproj">
+      <Project>{D1A5436E-385A-3185-8821-D6D3D6195C89}</Project>
+      <Name>04-gouraud</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\04-gouraud-float.vcxproj">
+      <Project>{0323B621-7340-35C9-B524-37CB62951184}</Project>
+      <Name>04-gouraud-float</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\04-shadowmap.vcxproj">
+      <Project>{D884821F-26F9-3507-98EF-85D324D214DD}</Project>
+      <Name>04-shadowmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\06-cubemap.vcxproj">
+      <Project>{07992338-6EE7-395F-B31B-487527E2F119}</Project>
+      <Name>06-cubemap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\06-load-texture.vcxproj">
+      <Project>{AA894C61-22F5-3B5E-AACC-DFF6644B4D77}</Project>
+      <Name>06-load-texture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\06-mipfilters.vcxproj">
+      <Project>{93F1D1C0-71FF-3515-8D83-6A45F9686538}</Project>
+      <Name>06-mipfilters</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\06-multitexture.vcxproj">
+      <Project>{195D4C96-5656-3324-832A-45BC896315C1}</Project>
+      <Name>06-multitexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\06-statictexture.vcxproj">
+      <Project>{D8E07797-733C-3FC3-968B-7C3DA5D07954}</Project>
+      <Name>06-statictexture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\06-texturewrapping.vcxproj">
+      <Project>{FE0171F9-81BF-32A7-8EF3-980DFF4F02DF}</Project>
+      <Name>06-texturewrapping</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\06-volumetexturing.vcxproj">
+      <Project>{9B22EB7C-A9D7-3AD2-A1B3-83353565BFF9}</Project>
+      <Name>06-volumetexturing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\08-lightmodels.vcxproj">
+      <Project>{756EF41B-AA0F-3993-811A-253DE4BE567D}</Project>
+      <Name>08-lightmodels</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\09-simpletess.vcxproj">
+      <Project>{0CF3D6CE-6F75-3227-A263-33070EC9B3D7}</Project>
+      <Name>09-simpletess</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\09-teapot.vcxproj">
+      <Project>{74F776EA-7993-3400-8B54-C707C2BEEFFF}</Project>
+      <Name>09-teapot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\10-draw-xfb.vcxproj">
+      <Project>{50F9A4B1-471F-3336-AFC6-F1D5F8C9C17F}</Project>
+      <Name>10-draw-xfb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\10-fur.vcxproj">
+      <Project>{9C135E0A-A319-3887-B884-142425D6B3CA}</Project>
+      <Name>10-fur</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\10-viewport-array.vcxproj">
+      <Project>{6A58EE35-E66F-32AC-8A66-3DCE222D0AC4}</Project>
+      <Name>10-viewport-array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\11-doublewrite.vcxproj">
+      <Project>{79597A99-64F9-301F-BD2E-E5A10FDAD094}</Project>
+      <Name>11-doublewrite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\11-oit.vcxproj">
+      <Project>{C6229436-D505-373A-873D-6E5E11445F0D}</Project>
+      <Name>11-oit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\11-overdrawcount.vcxproj">
+      <Project>{FAA4DC4D-2B56-37A2-8D16-065FFDF0D909}</Project>
+      <Name>11-overdrawcount</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\12-imageprocessing.vcxproj">
+      <Project>{DFFF3750-660D-3EA7-B1C1-017C9FBDC260}</Project>
+      <Name>12-imageprocessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\12-particlesimulator.vcxproj">
+      <Project>{AC911BFF-23B0-3B0D-BF7E-0254F228D5DC}</Project>
+      <Name>12-particlesimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\12-raytracer.vcxproj">
+      <Project>{56F9EA7D-32E5-363E-8C35-DBABE5487A65}</Project>
+      <Name>12-raytracer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\12-simplecompute.vcxproj">
+      <Project>{4E8D00EC-55E6-3354-AC18-798628395B07}</Project>
+      <Name>12-simplecompute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\examples\boing.vcxproj">
+      <Project>{ECFE848B-62E0-3794-B030-5419EB1589BD}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\clipboard.vcxproj">
+      <Project>{E5CD3609-8828-3E20-9311-2EAF6119FE66}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\cursor.vcxproj">
+      <Project>{9AEC2DB4-67C7-3F61-ACFC-9E154B2C201F}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\empty.vcxproj">
+      <Project>{A3338D0A-F417-3E12-9F59-9C5013A58B9E}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\events.vcxproj">
+      <Project>{D1DBACB0-2D57-3306-8728-8AB1572E65FE}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\gamma.vcxproj">
+      <Project>{8B6934DA-F1FB-3731-B8CB-FEE71A17CB21}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\examples\gears.vcxproj">
+      <Project>{EE425285-4BEF-3302-AA29-E1778C3FBC2A}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\src\glfw.vcxproj">
+      <Project>{6DE0A0EE-51F9-3CD6-9913-A3D5A1592EAA}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\glfwinfo.vcxproj">
+      <Project>{AD620ABE-ADAF-3974-9741-99915D5AC169}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\examples\heightmap.vcxproj">
+      <Project>{898BED3F-773D-3730-B870-3780FEC2C295}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\iconify.vcxproj">
+      <Project>{154E4E90-C053-3094-A0AC-887716E109C2}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\joysticks.vcxproj">
+      <Project>{47695C1C-5A02-314B-966E-B0ACFE6E2820}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\monitors.vcxproj">
+      <Project>{15AF24EF-F26F-31E9-ADCC-44668C683DDF}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\msaa.vcxproj">
+      <Project>{B823D2F4-13ED-34B3-B7AF-6ADDE5BF8242}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\examples\particles.vcxproj">
+      <Project>{B6EF09C8-A3D2-3A06-AF91-E276450D6720}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\reopen.vcxproj">
+      <Project>{530D29D4-0EB5-35BA-B680-79E99EB8831A}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\sharing.vcxproj">
+      <Project>{5F55A888-8D2D-3A42-9959-BEF66DA5E615}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\examples\simple.vcxproj">
+      <Project>{11959CDE-A378-3CF8-AD7B-063BCFBB4606}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\examples\splitview.vcxproj">
+      <Project>{B2C0C467-5E7F-321E-ABA6-FFB2214FE12D}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\tearing.vcxproj">
+      <Project>{C7F728C4-5092-345E-A0E7-FD6B45D3E954}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\threads.vcxproj">
+      <Project>{6046D466-B2EE-38D6-B288-2DF122417654}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\title.vcxproj">
+      <Project>{6E6E0979-5A4A-3092-A57D-4533F949AB74}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\vermilion.vcxproj">
+      <Project>{2DFBDF71-86A8-32C9-8B88-CD8B651AECEA}</Project>
+      <Name>vermilion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\examples\wave.vcxproj">
+      <Project>{E82EEFCA-A888-3326-9361-42A069B9C4DF}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\lib\glfw\tests\windows.vcxproj">
+      <Project>{633CF7B6-59C8-3C6D-8932-2D48B0CC6364}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

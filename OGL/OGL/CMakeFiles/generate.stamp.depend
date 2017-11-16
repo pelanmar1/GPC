@@ -1,0 +1,67 @@
+# CMake generation dependency list for this directory.
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/CMakeLists.txt
+C:/Users/sdist/Desktop/OGL/OGL/CMakeFiles/3.10.0-rc3/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/sdist/Desktop/OGL/OGL/CMakeFiles/3.10.0-rc3/CMakeCCompiler.cmake
+C:/Users/sdist/Desktop/OGL/OGL/CMakeFiles/3.10.0-rc3/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+C:/Users/sdist/Desktop/OGL/OGL/CMakeFiles/3.10.0-rc3/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Users/sdist/Desktop/OGL/OGL/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
+C:/Users/sdist/Desktop/OGL/OGL/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
+C:/OGLPG-9th-Edition/OGLPG-9th-Edition/build/templates/vs2013.vcxproj.user.in
