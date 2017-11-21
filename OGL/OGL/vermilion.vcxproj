@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
@@ -30,22 +30,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -122,7 +122,8 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -155,7 +156,8 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -263,18 +265,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\gl3w.c" >
+    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\gl3w.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
     </ClCompile>
-    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\LoadShaders.cpp"  />
-    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\targa.cpp"  />
-    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\vdds.cpp"  />
-    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\loadtexture.cpp"  />
-    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\vermilion.cpp"  />
-    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\vbm.cpp"  />
+    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\LoadShaders.cpp" />
+    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\targa.cpp" />
+    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\vdds.cpp" />
+    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\loadtexture.cpp" />
+    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\vermilion.cpp" />
+    <ClCompile Include="C:\OGLPG-9th-Edition\OGLPG-9th-Edition\lib\vbm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\sdist\Desktop\OGL\OGL\ZERO_CHECK.vcxproj">
